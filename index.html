@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Titre de ma page -->
+        <title>Vive les LEGO</title>
+
+
+        <!-- Déclaration des feuilles de style -->
+
+        <!-- NORMALIZE -->
+        <!-- On la place avant notre propre feuille de style pour TOUT normaliser AVANT -->
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+
+
+        <!-- GOOGLE POLICES -->
+
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <!-- CDN ICONES Font AWESOME-->
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Ma feuille de style -->
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+
+<body>
+
+    <div class="page">
+    <!-- TOP EN TETE DE PAGE -->
+        <p><strong>go go on veut des LEGO</strong></p>
+
+        <div class="topheader">
+        <div class="espclt">
+            <!-- Liens vers Connexion et Inscription à établir -->
+            <p><i class="fa fa-space-shuttle" aria-hidden="true"></i> Espace Clients : <a id="cx" href="#">Connexion </a> |
+                <a id="is" href="#">Inscription</a></p>
+
+
+        </div>
+
+        </div>
+        <!-- EN TETE DE PAGE -->
+        <header>
+            <!-- pti logo -->
+            <div class="logo">
+                <a href=""> <img src="assets/img/lego.svg" alt="Notre LOGO :-)"></a>
+            </div>
+            <!-- NAVIGATION Ds le site -->
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">PRESENTATION</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <!-- IMAGE BANDEAU SUR PAGE -->
+        <!--
+        <div id="projecteur">
+            <img src="assets/img/battle.jpg" width=100%>
+        </div>
+-->
+
+
+        <!-- SECTION CONTENU -->
+    </div>
+    <!--    je ferme ma DIV PAGE afin de permettre a mon bandeau d'etre sur toute la page web    -->
+    <!--   autre façon "potentielle de faire un bandeau dépassant le body
+   
+  <div class="site-branding" style="background-image:url(https://mi-od-live-s.legocdn.com/r/www/r/aboutus/-/media/aboutus/site-brandings/thelegogroup.jpg?l.r=1268141359);">
+        <div class="container">
+            <div class="row">
+                <div class="site-branding-inner col-md-12">
+                    <div class="site-branding-title">About Us</div>
+                    <div class="site-branding-txt">Our mission: To inspire and develop the builders of tomorrow</div>
+                </div>
+        
+     .site-branding {
+    font-family: 'UbuntuCondensed',Arial,sans-serif;
+    background-size: cover;
+    background-position: left bottom;
+        background-position-x: left;
+    background-position-y: bottom;
+    color: #ffffff;
+    text-align: left;
+    padding: 6px 0;
+} -->
+    <div id="projecteur">
+        <img src="assets/img/legobandeau.png">
+    </div>
+
+    <!--        suite de ma page après mon bandeau-->
+    <div class="page">
+        <section>
+
+            <!-- SECTION CONTENU  SOUS SECTION ARTC & ASIDE-->
+            <aside>
+                <img src="assets/img/legoboite.jpg" alt="boite de jeu LEGO">
+            </aside>
+
+            <article>
+                <p>Le nom 'LEGO' est une abréviation de deux mots danois "leg godt", qui signifie "bien jouer". Notre nom correspond à notre idéal. Le Groupe LEGO a été fondé en 1932 par Ole Kirk Kristiansen. L'entreprise a été transmise de père en fils et est aujourd'hui possédée par Kjeld Kirk Kristiansen, petit-fils du fondateur. Elle a beaucoup changé au cours des 80 dernières années : le petit atelier de menuiserie est devenu une entreprise internationale moderne qui est aujourd'hui, en termes de ventes, le troisième plus grand fabricant mondial de jouets.</p>
+            </article>
+
+            <!-- SECTION CONTENU  SOUS SECTION Partenaires-->
+            <div class="partenaires"><em><i class="fa fa-sign-language" aria-hidden="true"> Nos Partenaires*</em></i>
+                <ul>
+                    <li><img src="assets/img/StarSheriff.png" alt="jouetclub"></li>
+                    <li><img src="assets/img/lionjouet.jpg" alt="logo lion club"></li>
+                    <li><img src="assets/img/telechargement.png" alt="Logo ludilOo"></li>
+                    <li><img src="assets/img/logomod.jpg" alt="logomod"></li>
+                </ul>
+
+
+            </div>
+
+
+        </section>
+    </div>
+    <!--        fin classe page-->
+
+    <!--        -->
+    <!-- FOOTER -->
+    <footer>
+        <div class="page">
+
+
+
+            <!-- Google MAP -->
+            <div class="gmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7721.231393013744!2d-61.03436580000004!3d14.620955000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63a3a0ed79a40e18!2sWebdealAuto+Le+Lamentin!5e0!3m2!1sfr!2sfr!4v1483451324946" width="700" height="350" style="border:5" allowfullscreen>
+
+                </iframe>
+
+
+            </div>
+            <!-- FIN CLASSE GOOGLE MAP -->
+
+            <!--NEWS LETTER  -->
+
+            <div class="newsletter">
+                <h3>Inscrivez-vous</h3>
+
+                <form name="CoordonneesClient" action="FichierClient.php" method="POST">
+
+
+                    <fieldset>
+                        <legend><i class="fa fa-envelope-o" aria-hidden="true"></i>* NewsLetter</legend>
+                        <!-- Fieldset permet de créer une bordure autour du formulaire -->
+
+                        <!-- Champ Nom -->
+
+                        <!-- <label for="NomUtilisateur">Nom :</label>  label FONCTIONNE AVEC id -->
+
+
+                        <input type="text" name="Nom" placeholder="Saisissez votre Nom">
+
+
+                        <!-- Champ Prénom -->
+
+
+                        <input type="text" name="Prénom" placeholder="Saisissez votre Prénom">
+
+                        <!-- Champ e-mail -->
+
+
+                        <input type="email" name="e-mail" placeholder="Saisissez votre e-mail">
+
+                        <!-- Soumettre mon Formulaire -->
+                        <input type="submit" value="* Inscription *">
+
+                    </fieldset>
+
+            </div>
+            <!--FIN NEWS LETTER  -->
+
+            <!--CONTACT  -->
+            <div class="contact">
+                <h3 class="test">CONTACTEZ-NOUS</h3>
+                <address><!-- la balise adresse met son contenu en italique PAR DEFAUT-->
+                       <strong>MWF3</strong><br><br>
+                       <a href="tel:+596696235025"><i class="fa fa-mobile" aria-hidden="true"></i> 0696235025</a>
+                       <br>
+                       <a href="mailto:p7.olivier@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> p7.olivier@gmail.com</a>
+                       <br>
+                       100 rue de l'invisible <br>
+                       99800 <br>
+                       GROENLAND
+                       
+                   </address>
+
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

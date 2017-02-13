@@ -1,0 +1,318 @@
+body{
+    background-image: url("../img/back2.jpg");
+}
+.page {
+    width:100%;
+    max-width: 1000px;
+   font-family: lato;
+    margin: 0 auto;
+ 
+    
+}
+
+.page > p{
+    color: #eb1143;
+    
+}
+
+
+.topheader{
+    color: yellow;
+    font-size: 18px;
+    text-align: right;
+    background-color: #eb2227;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    border-radius: 10px;
+/*    margin-right: 10px;*/
+}
+
+
+.topheader p a {
+    color: #eaeaea;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.topheader p a:hover {
+    text-decoration: underline;   
+}
+
+/*header    */
+
+
+header{
+    width: 100%;
+    height: 130px;
+    float: left;
+    background: #929395;
+    text-align: center;
+    line-height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+            
+
+}
+
+.logo{
+    width 25%;
+    height: 130px;
+    float: left;
+    border-radius: 5px;
+}
+
+.logo img{
+    height: 130px;
+    float: left;
+    border-radius: 12px;
+}
+
+
+
+nav{
+    width 75%;
+    height: 130px;
+    float: right;
+    
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+/*    tj supprimer padding et marging sur les ul car par deft le navigateur en met*/
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+/*    espacer les titres du menu*/
+}
+
+
+nav ul li a{
+    font-family: arial;
+    text-decoration: none;
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+    
+/*    pour supprimer le soulignement par defaut des liens*/
+    
+}
+
+
+/*#projecteur{*/
+/*    width: 100%;*/
+/*    float: right*/
+
+/*
+#projecteur {
+   width: 100%;
+    
+    
+    
+}
+*/
+
+#projecteur img{
+    width: 100%;
+    height: auto;
+    float: left;
+        
+}
+
+
+section{
+/*   positionnement*/
+    width: 100%;
+    float:left;
+    margin-top: 60px;
+    
+}
+section aside{
+    width: 50%;
+    float: left;
+    
+    
+}
+
+section aside img{
+    width: 100%;
+    float: left;
+    
+        
+}
+/*max-width c pour etre sur que l'image prenne le maximum de l'espace que son parent lui indique*/
+
+
+section article{
+    width: 50%;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #ff0000;
+    border-color: red;
+    border-radius: 10px;
+    border-style: solid;
+    padding:15px;
+    box-sizing: border-box;
+    
+/*    box sizing border-box oblige la boite article a se mettre a cote de aside  je met 50% des deux cotes et tu te tais MAIS ATTENTION cela ne fonctionne pas avec le margin !! Seulement avec le padding*/
+    
+        
+}
+
+
+section article p{
+    
+}
+/*~Mise en forme du FOOTER~*/
+.partenaires{
+    width: 100%;
+    float: left;
+    color: #100850;
+    font-family: sans-serif;
+    text-align: center;
+    /*    background-image: linear-gradient(#c7daff,blue);*/
+    font-size: 30px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.partenaires ul{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+.partenaires ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+.partenaires ul li img{
+   max-width:100%;
+    margin: 0 auto;
+/*    margin 0 auto; c pour centrer des images de façon horizontale exemple les logos l'un a la suite de l'autre là*/
+}
+
+footer{
+    /*~POSITION~*/
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(rgba(34, 24, 38, 0.89),grey);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border: black;
+    
+    
+}
+
+.gmap{
+    /*~POSITION~*/
+    width: calc(93% / 3);
+    height: 300px;
+    float: left;
+    
+}
+
+
+
+.gmap iframe{
+    /*~POSITION~*/
+    width: 100%;
+    max-height: 100%;
+/*    qd je met height 100% c parce que j'ai mis dans Gmap au prealable heigt 300px je force donc l image a occuper 100% de l'espace de son container au maximum*/
+    float: left;
+    border-radius: 10px;
+    border-color: #f7c00b;
+    border-width: 5px;
+    
+}
+.newsletter{
+     /*~POSITION~*/
+    width: calc(93% / 3);
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    margin-left: 20px;
+    padding-left: 5px;
+    background-color: rgb(212, 39, 45);
+    border-width: 5px;
+}
+
+.newsletter h3{
+     /*~POSITION~*/
+  text-align: center;
+    color: #ead220;
+}
+
+.newsletter form{
+    text-align: center;
+    
+}
+
+
+
+.newsletter fieldset{
+    
+}
+
+.newsletter legend{
+    color: #ead220;
+    font-size: 20px;
+    
+}
+.newsletter input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+
+.newsletter input[type=submit]{
+    color: #ed3509;
+    border-radius: 7px;
+}
+
+.contact{
+     /*~POSITION~*/
+    width: calc(90% / 3);
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #1a00ac;
+    margin-left: 10px;
+    padding-left: 5px;
+    background-color: rgb(1, 31, 198);
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border-width: 5px;
+}
+
+.contact a{
+    color: white;
+    
+}
+
+
